@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+
 body {
   margin: 0;
   padding: 0;
@@ -8,12 +10,12 @@ body {
 h3 {
   font-size: 1.5em;
 }
-header span:before {
+header h3 span:before {
   content: '/';
-  font-size: 20px;
+  font-size: 30px;
   margin: 10px;
 }
-header span {
+header h3 span {
   color: teal;
 }
 h3 {
@@ -38,5 +40,34 @@ h2 {
   font-size: 0.6em;
   font-family: 'Open Sans Condensed', sans-serif;
   font-style: italic;
+  line-height: 0em;
+}
+h1 {
+  font-size: 8em;
+  line-height: 0em;
+  font-family: 'Alfa Slab One', cursive;
+}
+.volume {
+  margin-left: 300px;
+}
+div span:before {
+  content: '/';
+  font-size: 20px;
+}
+div span:before {
+  content: '/';
+  font-size: 15px;
+  margin: 10px;
+}
+div span:after {
+  content: '/';
+  font-size: 15px;
+  margin: 10px;
+}
+.volume {
+  font-size: .75em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  color: gray;
   line-height: 0em;
 }
