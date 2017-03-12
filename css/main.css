@@ -41,6 +41,11 @@ header h3 span:after {
   margin-left: 5px;
   top: 13px;
 }
+sidebar div {
+  height: 400px;
+  width: 200px;
+  border: solid 1px black;
+}
 
 /*header h2 {
   font-family: 'Crimson Text', serif;
