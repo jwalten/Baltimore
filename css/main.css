@@ -22,12 +22,16 @@ header h3 {
 }
 header h3 span {
   color: teal;
-  font-weight: 100%;
   position: relative;
+  padding-left: 20px;
 }
 header h3 span:before {
-  content: '/';
-  margin: 10px;
+  content: "";
+  border-left: solid 2px teal;
+  transform: rotate(20deg) translateX(-10px) translateY(10px);
+  position: absolute;
+  width: 20px;
+  height: 25px;
 }
 header h3 span:after {
   content: '';
@@ -37,7 +41,8 @@ header h3 span:after {
   margin-left: 5px;
   top: 13px;
 }
-header h2 {
+
+/*header h2 {
   font-family: 'Crimson Text', serif;
   font-size: 3em;
   margin-left: 100px;
@@ -106,3 +111,4 @@ h1 {
 .contents p span {
   font-weight: bold;
 }
+*/
