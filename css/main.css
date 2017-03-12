@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
 
-body {
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure  {
   margin: 0;
   padding: 0;
 }
@@ -15,6 +17,14 @@ h3 {
 header {
   overflow: hidden;
 }
+header h3 {
+  font-size: 1.5em;
+}
+header h3 span {
+  color: teal;
+  font-weight: 100%;
+  position: relative;
+}
 header h3 span:before {
   content: '/';
   margin: 10px;
@@ -26,11 +36,6 @@ header h3 span:after {
   position: absolute;
   margin-left: 5px;
   top: 13px;
-}
-header h3 span {
-  color: teal;
-  font-weight: 100%;
-  position: relative;
 }
 header h2 {
   font-family: 'Crimson Text', serif;
