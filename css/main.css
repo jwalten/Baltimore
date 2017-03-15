@@ -41,12 +41,26 @@ header h3 span:after {
   margin-left: 5px;
   top: 13px;
 }
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+#images {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+#images img {
+  display: block;
+}
 sidebar div {
   height: 400px;
   width: 200px;
-  border: solid 1px black;
+  border: 1px solid black;
 }
-
+figure img {
+  margin-bottom: 20px;
+}
 /*header h2 {
   font-family: 'Crimson Text', serif;
   font-size: 3em;
