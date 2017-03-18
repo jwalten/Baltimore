@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -21,6 +22,11 @@ h2 {
   color: darkgray;
   font-family: 'Playfair Display', serif;
   margin-left: 75px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1 {
+  font-size: 5em;
+  font-family: 'Bree Serif', serif;
 }
 /*--------- header ---------*/
 
@@ -50,6 +56,18 @@ header h3 span:after {
   position: absolute;
   margin-left: 5px;
   top: 13px;
+}
+h2 {
+  font-size: 2.5em;
+  color: darkgray;
+  font-family: 'Playfair Display', serif;
+  margin-left: 75px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+header p {
+  margin-left: 75px;
+  font-style: italic;
+  font-size: .8em;
 }
 /*----------images-----------*/
 #top {
