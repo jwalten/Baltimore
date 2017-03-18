@@ -1,2 +1,2 @@
 Replicating this images
-<img src="baltimore-magazine.png">
+<img src="img/baltimore-magazine.png">
