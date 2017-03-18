@@ -73,10 +73,29 @@ sidebar div {
   width: 200px;
   border: 1px solid black;
 }
-sidebar div #green-box {
+#green-box {
   height: 380px;
   width: 180px;
   background-color: palegreen;
   border: none;
   margin: 10px;
+}
+#green-box img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#green-box h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#green-box h3 span {
+  color: red;
+}
+#green-box p {
+  margin: 0 10px 10px 10px;
+  font-size: .9em;
+}
+h4 {
+  margin: 0 10px;
+  font-size: .9em;
 }
