@@ -79,17 +79,16 @@ header p {
 /*----------images-----------*/
 #top {
   display: flex;
+  justify-content: space-between;
 }
 #images {
   display: flex;
   justify-content: space-between;
   width: 800px;
 }
-#images figure {
-  display: block;
-}
 figure img {
   margin-bottom: 20px;
+  display: block;
 }
 figure img:last-of-type {
   margin-bottom: 0;
@@ -138,7 +137,7 @@ h4 {
   font-size: .9em;
 }
 /*----------bottom---------*/
-#bottom {
+/* #bottom {
 -webkit-columns: 150px 3;
    -moz-columns: 150px 3;
         columns: 150px 3;
