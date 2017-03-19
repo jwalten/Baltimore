@@ -100,7 +100,6 @@ sidebar #green-box span:before {
   border: none;
   background-color: teal;
   position: absolute;
-  margin-top: 0;
   color: white;
 }
 sidebar div {
@@ -137,24 +136,26 @@ h4 {
   font-size: .9em;
 }
 /*----------bottom---------*/
-/* #bottom {
--webkit-columns: 150px 3;
-   -moz-columns: 150px 3;
-        columns: 150px 3;
+#bottom section {
+-webkit-columns: 300px 4;
+   -moz-columns: 300px 4;
+        columns: 300px 4;
+    padding-top: 40px;
+    column-width: 10px;
 }
-#bottom section span {
-  color: red;
-  font-size: 15px;
+#bottom section h4 {
+  font-size: 2em;
   line-height: 0;
-}
-#bottom section h3 {
-  font-size: 15px;
-  line-height: 0;
-  padding-bottom: 0;
+  padding-bottom: 20px;
+  margin-left: 0;
 }
 #bottom section p {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
-#bottom section p span {
+.page-numbers {
+  color: red;
+  font-weight: bold;
+}
+.page-headers {
   font-weight: bold;
 }
