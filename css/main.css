@@ -64,7 +64,7 @@ header h3 span:after {
   margin-left: 5px;
   top: 10px;
 }
-header h2 {
+body header h2 {
   font-size: 2.5em;
   color: darkgray;
   font-family: 'Playfair Display', serif;
@@ -91,14 +91,18 @@ header p {
 figure img {
   margin-bottom: 20px;
 }
+figure img:last-of-type {
+  margin-bottom: 0;
+}
 /*----------sidebar----------*/
-#plus {
+sidebar #green-box span:before {
   width: 50px;
   height: 20px;
   border: none;
-  background-color: darkgreen;
+  background-color: teal;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 0;
+  color: white;
 }
 sidebar div {
   height: 420px;
@@ -134,27 +138,24 @@ h4 {
   font-size: .9em;
 }
 /*----------bottom---------*/
-.contents {
--webkit-columns: 200px 3;
-   -moz-columns: 200px 3;
-        columns: 200px 3;
+#bottom {
+-webkit-columns: 150px 3;
+   -moz-columns: 150px 3;
+        columns: 150px 3;
 }
-.contents span {
+#bottom section span {
   color: red;
   font-size: 15px;
   line-height: 0;
 }
-.contents h3 {
+#bottom section h3 {
   font-size: 15px;
   line-height: 0;
   padding-bottom: 0;
 }
- .contents {
-  line-height: 110%;
-}
-.contents p {
+#bottom section p {
   padding-bottom: 10px;
 }
-.contents p span {
+#bottom section p span {
   font-weight: bold;
 }
