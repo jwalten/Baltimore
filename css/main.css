@@ -136,7 +136,7 @@ h4 {
   font-size: .9em;
 }
 /*----------bottom---------*/
-#bottom section {
+#bottom {
 -webkit-columns: 300px 4;
    -moz-columns: 300px 4;
         columns: 300px 4;
@@ -144,7 +144,7 @@ h4 {
     column-width: 10px;
 }
 #bottom section h4 {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 0;
   padding-bottom: 20px;
   margin-left: 0;
