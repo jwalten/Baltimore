@@ -137,11 +137,9 @@ h4 {
 }
 /*----------bottom---------*/
 #bottom {
--webkit-columns: 300px 4;
-   -moz-columns: 300px 4;
-        columns: 300px 4;
     padding-top: 40px;
-    column-width: 10px;
+    column-count: 3;
+    column-gap: 1em;
 }
 #bottom section h4 {
   font-size: 1.5em;
