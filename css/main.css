@@ -136,6 +136,21 @@ h4 {
   margin: 0 10px;
   font-size: .9em;
 }
+#circle {
+  width: 130px;
+  height: 130px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+  background: darkgreen;
+  margin-left: 40px;
+  margin-top: 75px;
+   }
+#circle h3 {
+  margin-left: 55px;
+  margin-top: 20px;
+  color: white;
+}
 /*----------bottom---------*/
 #bottom {
     padding-top: 40px;
