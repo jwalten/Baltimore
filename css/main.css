@@ -140,6 +140,7 @@ h4 {
   width: 130px;
   height: 130px;
   border-radius: 75px;
+  border: solid 10px lightgray;
   background: darkgreen;
   margin-left: 40px;
   margin-top: 75px;
