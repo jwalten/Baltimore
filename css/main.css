@@ -94,14 +94,16 @@ figure img:last-of-type {
   margin-bottom: 0;
 }
 /*----------sidebar----------*/
-sidebar #green-box span:before {
-  width: 50px;
-  height: 20px;
-  border: none;
+#plus {
   background-color: teal;
+  margin-bottom: 0;
   position: absolute;
+  font-family: 'Bree Serif', serif;
   color: white;
+  font-size: .9em;
+  padding: 1px 10px;
 }
+
 sidebar div {
   height: 420px;
   width: 200px;
