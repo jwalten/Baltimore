@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(https://fonts.googleapis.com/css?family=Port+Lligat+Slab);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -155,7 +155,7 @@ h4 {
 #bottom {
   padding-top: 40px;
   column-count: 4;
-  font-family: 'Port Lligat Slab', serif;
+  font-family: 'Droid Serif', serif;
 }
 #bottom section h4 {
   font-size: 1.5em;
