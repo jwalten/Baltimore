@@ -176,5 +176,16 @@ h4 {
 
 /*--------footer-----*/
 footer {
-  margin-top: 50px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  margin-top: 40px;
+  font-family: 'Droid Serif', serif;
+  font-size: .9em;
+}
+#footer-heading {
+  color: teal;
+  text-transform: uppercase;
+}
+#footer-italics {
+  font-style: italic;
 }
